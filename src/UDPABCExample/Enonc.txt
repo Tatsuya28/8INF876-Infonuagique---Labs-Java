@@ -1,0 +1,12 @@
+Un reseau est constitué de trois stations: A, B et C
+
+La station A utilise le port 10120, B utilise le port 10121 et la station C utilise le port 10122.
+
+- La station A envoie la chaine "A" à la sation B
+- La station B concatene la chaine "B" à la chaine qu'elle recoit de la station A et l'envoie à la station C
+- La station C concatene la chaine "C" à la chaine  qu'elle recoit de la station B et l'envoie à la station A
+
+Ecrire trois applications pour implementer ce protocole.
+Utiliser les Sockets Datagrammes pour communiquer les tois stations.
+
+Vous pouvez utiliser les exemples de programmes utilisants les sockets datagrammes, vue en classe
